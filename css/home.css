@@ -431,7 +431,7 @@ h1 {
   padding: 10px 0;
   color: #2D2926;
   display: block;
-  color: #2D2926 /*rgba(255, 255, 255, 0.8);*/
+  color: #2D2926; /*rgba(255, 255, 255, 0.8);*/
   border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
 
 #sidebar ul li a:hover {
@@ -507,7 +507,7 @@ a[data-toggle="collapse"] {
   .btn-sidebar {
     left: 17%;
   }*/
-}
+
 
 
 /* ============== REDES ============== */
@@ -766,6 +766,7 @@ a[data-toggle="collapse"] {
 }
 
 #productos ul {
+   margin-top: 2rem;
    list-style-image: url("../img/list-icon.png");
 }
 
@@ -773,8 +774,11 @@ a[data-toggle="collapse"] {
   font-family: "Suisse Intl Medium", sans-serif;
   color: #fff;
   font-size: 1.5rem;
+  padding-bottom: 1rem;
 }
-
+#productos li a{
+  color: #fff;
+}
 #list-productos 
 {
   display: flex;
@@ -946,7 +950,6 @@ a[data-toggle="collapse"] {
 #hazlo-btn a {
   color: #2D2926;
   background: #FFC72C;
-  border-radius: 19px;
   height: 6vh;
   width: 33vh;
   justify-content: center;
